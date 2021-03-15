@@ -1,0 +1,30 @@
+@import "partners-partner__photo.css";
+
+@font-face {
+  font-family: 'Roboto'; 
+  src: url(../../../fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+.partners-partner__text{
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 14px;
+  text-align: center;
+}
+
+.partners-partner__name{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}

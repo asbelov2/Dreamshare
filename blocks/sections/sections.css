@@ -1,4 +1,6 @@
 @import "introduction/introduction.css";
+@import "partners/partners.css";
+
 @font-face {
   font-family: 'Roboto'; 
   src: url('../../../fonts/Roboto.ttf');

@@ -1,0 +1,24 @@
+.partners-partner__photo{
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: indigo;
+}
+
+.partners-partner__photo_person_1{
+  background: url("../../../img/partner1.png");
+}
+
+.partners-partner__photo_person_2{
+  background: url("../../../img/partner2.png");
+}
+
+.partners-partner__photo_person_3{
+  background: url("../../../img/partner3.png");
+}
+
+.partners-partner__photo_person_4{
+  background: url("../../../img/partner4.png");
+}
+
