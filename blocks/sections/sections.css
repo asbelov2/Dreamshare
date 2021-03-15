@@ -1,0 +1,23 @@
+@import "introduction/introduction.css";
+@font-face {
+  font-family: 'Roboto'; 
+  src: url('../../../fonts/Roboto.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+.sections{
+  width: 940px;
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
