@@ -1,0 +1,27 @@
+@import "activities__activity.css";
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+.activities{
+  display: flex ;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.activities__header{
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 100px 0px 35px 0px;
+}

@@ -1,5 +1,7 @@
 @import "introduction/introduction.css";
 @import "partners/partners.css";
+@import "activities/activities.css";
+@import "search/search.css";
 
 @font-face {
   font-family: 'Roboto'; 
@@ -13,6 +15,7 @@
 
 @font-face {
   font-family: 'Montserrat bold'; 
+  font-weight: bold;
   src: url('../../../fonts/MontserratBold.ttf');
 }
 

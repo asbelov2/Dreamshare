@@ -11,8 +11,13 @@
 }
 
 .introduction{
-display: flex;
-justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction-steps{
+  display: flex;
+  justify-content: space-between;
 }
 
 .introduction__header{
