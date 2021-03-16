@@ -20,8 +20,9 @@
 .activities__header{
   display: flex;
   justify-content: center;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-weight: bold;
   font-size: 22px;
+  color: #333333;
   margin: 100px 0px 35px 0px;
 }

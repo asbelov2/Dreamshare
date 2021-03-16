@@ -1,0 +1,41 @@
+@import "search__interaction.css";
+@font-face {
+  font-family: 'Roboto'; 
+  src: url(../../../fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.search__header{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 22px;
+  color: #333333;
+  margin: 100px 0px 35px 0px;
+}
+
+.search__text{
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0px 0px 35px 0px;
+  color: #333333;
+}
