@@ -5,6 +5,42 @@
   border-radius: 50%;
   background-color: indigo;
   margin-bottom: 20px;
+  position: relative;
+  
+}
+
+.partners-partner__additional-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: white 4px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.partners-partner__additional-icon__img{
+  width: 16px;
+  height: 16px;
+}
+
+.partners-partner__additional-icon_color_red{
+  background-color: #ff4e50;
+}
+
+.partners-partner__additional-icon_color_green{
+  background-color: #1cd7ad;
+}
+
+.partners-partner__additional-icon_color_yellow{
+  background-color: #ffa507;
+}
+
+.partners-partner__additional-icon_color_blue{
+  background-color: #4e73db;
 }
 
 .partners-partner__photo_person_1{
