@@ -17,6 +17,7 @@
 .footer-company{
   display: flex;
   width: 240px;
+  height: 120px;
   flex-direction: column;
   justify-content: space-between;
 }

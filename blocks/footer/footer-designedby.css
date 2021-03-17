@@ -9,12 +9,19 @@
 }
 
 .footer-designedby{
+  letter-spacing: 1px;
   display: flex;
-  flex-direction: column;
+  width: 240px;
+  flex-flow: column nowrap;
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 10px;
-  justify-content: right;
   text-align: right;
   color: #cccccc;
+}
+
+.footer-designedby__img{
+  margin-top: 8px;
+  display: flex;
+  align-self: flex-end;
 }

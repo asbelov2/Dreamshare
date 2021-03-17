@@ -14,6 +14,7 @@
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 14px;
+  margin-right: 5px;
 }
 
 .header-top-buttons__signup{
@@ -28,6 +29,8 @@
   border-radius: 18px;
   border: white 2px solid;
   background-color: #ffffff00;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-top-buttons__login{
@@ -41,4 +44,6 @@
   height: 36px;
   border-width: 0px;
   background-color: #ffffff00;
+  padding-left: 15px;
+  padding-right: 15px;
 }

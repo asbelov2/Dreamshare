@@ -27,9 +27,10 @@
 }
 
 .introduction-step__caption{
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-weight: bold;
-  margin: 20px 0px 20px 0px;
+  font-size: 24px;
+  margin: 0px 0px 20px 0px;
 }
 
 .introduction-step__text{
@@ -41,8 +42,10 @@
 
 .introduction-step__label{
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  line-height: 20px;
+  align-content: center;
+  text-align: center;
   border-radius: 10px;
   background-color: #ff4e50;
   width: 70px;
@@ -50,16 +53,18 @@
   color:white;
   font-family: 'Roboto';
   font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
 }
 
 .introduction-step_bgimage_notebook{
-  background: linear-gradient(to top, #000, #FFFFFF00), url("../../../img/step1.png");
+  background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step1.png");
 }
 
 .introduction-step_bgimage_car{
-  background: linear-gradient(to top, #000, #FFFFFF00), url("../../../img/step2.png");
+  background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step2.png");
 }
 
 .introduction-step_bgimage_legs{
-  background: linear-gradient(to top, #000, #FFFFFF00), url("../../../img/step3.png");
+  background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step3.png");
 }
