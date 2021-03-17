@@ -1,5 +1,3 @@
-@import "partners-partner__photo.css";
-
 @font-face {
   font-family: 'Roboto'; 
   src: url(../../../fonts/Roboto.ttf);
@@ -15,19 +13,12 @@
   src: url('../../../fonts/MontserratBold.ttf');
 }
 
-.partners-partner__text{
+
+.footer-partners{
   display: flex;
-  font-family: "Roboto";
-  font-weight: lighter;
-  font-size: 14px;
-  text-align: center;
+  width: 240px;
 }
 
-.partners-partner__name{
+.footer-partners__header{
   display: flex;
-  margin-bottom: 20px;
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 14px;
-  text-align: center;
 }

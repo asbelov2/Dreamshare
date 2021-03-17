@@ -21,14 +21,14 @@
 .partners{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .partners-partner{
   display: flex;
   flex-direction: column;
+  margin: 0px 10px 0px 10px;
   align-items: center;
-  justify-content: space-between;
   width: 220px;
   height: 235px;
 }

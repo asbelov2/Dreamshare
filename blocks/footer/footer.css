@@ -1,0 +1,43 @@
+@import "footer-company.css";
+@import "footer-designedby.css";
+@import "footer-partners.css";
+
+@font-face {
+  font-family: 'Roboto'; 
+  src: url(../../../fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+
+.footer-wrap{
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  border-top: #ff4e50 4px solid;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  width: 940px;
+  height: 192px;
+  padding-top: 40px;
+}
+
+.footer-site-name{
+  width: 240px;
+  display: flex;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 16px;
+  color:#ff4e50;
+}
