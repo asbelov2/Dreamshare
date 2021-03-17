@@ -1,0 +1,11 @@
+@import "header-top.css";
+@import "header-main.css";
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 700px;
+  background: #000000c0 url("../../img/header.png");
+}

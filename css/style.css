@@ -1,4 +1,6 @@
+@import "../blocks/header/header.css";
 @import "../blocks/sections/sections.css";
+@import "../blocks/footer/footer.css";
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -27,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   line-height: 1; }
 
 ol, ul {

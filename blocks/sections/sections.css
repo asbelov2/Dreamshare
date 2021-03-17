@@ -21,7 +21,6 @@
 
 .sections{
   width: 940px;
-  background-color: palevioletred;
   display: flex;
   flex-direction: column;
   justify-content: center;
