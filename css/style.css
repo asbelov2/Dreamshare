@@ -1,6 +1,16 @@
-@import "../blocks/header/header.css";
-@import "../blocks/sections/sections.css";
-@import "../blocks/footer/footer.css";
+
+  @import "../mobile.blocks/header/header.css" screen and (max-width: 767px) and (min-width: 300px);
+  @import "../mobile.blocks/sections/sections.css" screen and (max-width: 767px) and (min-width: 300px);
+  @import "../mobile.blocks/footer/footer.css" screen and (max-width: 767px) and (min-width: 300px);
+
+  @import "../tablet.blocks/header/header.css" screen and (max-width: 1199px) and (min-width: 768px);
+  @import "../tablet.blocks/sections/sections.css" screen and (max-width: 1199px) and (min-width: 768px);
+  @import "../tablet.blocks/footer/footer.css" screen and (max-width: 1199px) and (min-width: 768px);
+
+  @import "../desktop.blocks/header/header.css" screen and (min-width: 1200px);
+  @import "../desktop.blocks/sections/sections.css" screen and (min-width: 1200px);
+  @import "../desktop.blocks/footer/footer.css" screen and (min-width: 1200px);
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

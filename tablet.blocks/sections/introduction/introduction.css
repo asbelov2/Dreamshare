@@ -1,0 +1,31 @@
+@import "introduction-step.css";
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+.introduction{
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction-steps{
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction__header{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 22px;
+  color: #333333;
+  margin: 100px 0px 35px 0px;
+}

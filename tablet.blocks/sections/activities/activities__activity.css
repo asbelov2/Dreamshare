@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+.activities__activity{
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 22px;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.activities__activity-name{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

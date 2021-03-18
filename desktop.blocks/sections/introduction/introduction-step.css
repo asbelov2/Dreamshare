@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Roboto'; 
+  src: url(../../../fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+.introduction-step{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  border-radius: 4px;
+  width:300px;
+  height:400px;
+  background-color: red;
+  color:white;
+  box-sizing:border-box;
+}
+
+.introduction-step__caption{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px 0px 20px 0px;
+}
+
+.introduction-step__text{
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: lighter;
+  color:#cccccc;
+}
+
+.introduction-step__label{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ff4e50;
+  width: 70px;
+  height: 20px;
+  color:white;
+  font-family: 'Roboto';
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.introduction-step_bgimage_notebook{
+  background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step1.png");
+}
+
+.introduction-step_bgimage_car{
+  background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step2.png");
+}
+
+.introduction-step_bgimage_legs{
+  background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step3.png");
+}

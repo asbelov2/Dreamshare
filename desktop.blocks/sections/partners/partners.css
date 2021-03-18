@@ -1,0 +1,34 @@
+@import "partners-partner.css";
+@import "partners-partner__photo.css";
+@import "partners__button.css";
+
+.partners__header{
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 22px;
+  color: #333333;
+  margin: 100px 0px 35px 0px;
+}
+
+.partners-section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.partners{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.partners-partner{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 0px 10px;
+  align-items: center;
+  width: 220px;
+  height: 230px;
+}

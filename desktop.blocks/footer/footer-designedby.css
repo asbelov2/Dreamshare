@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  src: url('../../../fonts/MontserratBold.ttf');
+}
+
+.footer-designedby{
+  letter-spacing: 1px;
+  display: flex;
+  width: 240px;
+  flex-flow: column nowrap;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 10px;
+  text-align: right;
+  color: #cccccc;
+}
+
+.footer-designedby__img{
+  margin-top: 8px;
+  display: flex;
+  align-self: flex-end;
+}

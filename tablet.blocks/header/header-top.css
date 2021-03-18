@@ -1,0 +1,19 @@
+@import "header-top-buttons.css";
+
+.header-top{
+  width: 940px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-top__site-name{
+  display: flex;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,27 @@
+@import "introduction/introduction.css";
+@import "partners/partners.css";
+@import "activities/activities.css";
+@import "search/search.css";
+
+@font-face {
+  font-family: 'Roboto'; 
+  src: url('../../fonts/Roboto.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat bold'; 
+  font-weight: bold;
+  src: url('../../fonts/MontserratBold.ttf');
+}
+
+.sections{
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
