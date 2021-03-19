@@ -19,7 +19,8 @@
   flex-direction: column;
   justify-content:flex-end;
   border-radius: 4px;
-  width:300px;
+  width:32%;
+  box-sizing: border-box;
   height:400px;
   background-color: red;
   color:white;

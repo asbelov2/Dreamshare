@@ -16,7 +16,8 @@
 
 .footer-partners{
   display: flex;
-  width: 240px;
+  width: 25%;
+  box-sizing: border-box;
 }
 
 .footer-partners__header{

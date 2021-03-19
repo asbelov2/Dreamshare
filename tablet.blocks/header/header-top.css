@@ -1,7 +1,7 @@
 @import "header-top-buttons.css";
 
 .header-top{
-  width: 940px;
+  width: 660px;
   margin-top: 40px;
   display: flex;
   flex-direction: row;

@@ -11,7 +11,8 @@
 .footer-designedby{
   letter-spacing: 1px;
   display: flex;
-  width: 240px;
+  width: 25%;
+  box-sizing: border-box;
   flex-flow: column nowrap;
   font-family: 'Montserrat';
   font-weight: bold;

@@ -1,16 +1,6 @@
 @font-face {
   font-family: 'Roboto'; 
-  src: url(../../../fonts/Roboto.ttf);
-}
-
-@font-face {
-  font-family: 'Montserrat'; 
-  src: url('../../../fonts/Montserrat Regular.ttf');
-}
-
-@font-face {
-  font-family: 'Montserrat bold'; 
-  src: url('../../../fonts/MontserratBold.ttf');
+  src: url('../../fonts/Roboto.ttf');
 }
 
 .header-main{
@@ -26,7 +16,7 @@
 
 .header-main__big-text{
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   color: white;
   font-family: 'Montserrat';
   font-weight: bold;

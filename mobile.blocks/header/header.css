@@ -1,6 +1,17 @@
 @import "header-top.css";
 @import "header-main.css";
 
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url('../../fonts/Montserrat Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat'; 
+  font-weight: bold;
+  src: url('../../fonts/MontserratBold.ttf');
+}
+
 .header{
   display: flex;
   flex-direction: column;
