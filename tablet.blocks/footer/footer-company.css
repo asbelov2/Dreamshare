@@ -16,11 +16,10 @@
 
 .footer-company{
   display: flex;
-  width: 25%;
+  margin: 0px 0px 0px 105px;
   box-sizing: border-box;
   height: 120px;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .footer-company__header{
@@ -31,10 +30,15 @@
   color: #333333;
 }
 
+.footer-company-links{
+  margin-top: 10px;
+}
+
 .footer-company__link{
+  display: flex;
+  margin-top: 10px;
   font-family: "Roboto";
   font-weight: lighter;
   font-size: 14px;
-  display: flex;
   color:#666666;
 }

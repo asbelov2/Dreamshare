@@ -16,10 +16,14 @@
 
 .footer-partners{
   display: flex;
-  width: 25%;
+  margin: 0px 0px 0px 105px;
   box-sizing: border-box;
 }
 
 .footer-partners__header{
   display: flex;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
 }

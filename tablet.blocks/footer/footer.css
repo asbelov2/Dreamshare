@@ -39,14 +39,14 @@
 .footer{
   display: flex;
   flex-direction: row;
-  width: 660px;
+  margin: 0px 0px 0px 40px;
+  width: 768px;
   height: 192px;
-  padding-top: 40px;
+  padding-top: 35px;
 }
 
 .footer-site-name{
   display: flex;
-  width: 25%;
   box-sizing: border-box;
   font-family: 'Montserrat';
   font-weight: bold;

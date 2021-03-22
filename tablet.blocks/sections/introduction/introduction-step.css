@@ -15,6 +15,7 @@
 
 .introduction-step{
   padding: 20px;
+  margin: 0px 10px 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content:flex-end;
@@ -39,6 +40,7 @@
   font-size: 14px;
   font-weight: lighter;
   color:#cccccc;
+  line-height: 16px;
 }
 
 .introduction-step__label{
@@ -60,12 +62,15 @@
 
 .introduction-step_bgimage_notebook{
   background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step1.png");
+  background-position: 55% 50%;
 }
 
 .introduction-step_bgimage_car{
   background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step2.png");
+  background-position: 55% 50%;
 }
 
 .introduction-step_bgimage_legs{
   background: linear-gradient(to top, #000000a0, #00000000), url("../../../img/step3.png");
+  background-position: 40% 50%;
 }
