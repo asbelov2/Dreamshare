@@ -15,15 +15,27 @@
   src: url('../../../fonts/MontserratBold.ttf');
 }
 
+.partners-partner{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 0px 10px;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .partners-partner__text{
   display: flex;
+  order:1;
   font-family: "Roboto";
   font-weight: lighter;
   font-size: 14px;
   text-align: center;
+  margin-bottom: 28px;
 }
 
 .partners-partner__name{
+  order: 0;
   display: flex;
   margin-bottom: 20px;
   font-family: "Montserrat";

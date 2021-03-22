@@ -17,7 +17,7 @@
   display: flex;
   text-align: center;
   align-items: center;
-  width: 190px;
+  width: 280px;
   height: 40px;
   border-radius: 20px;
   border: #ff4e50 2px solid;
@@ -28,5 +28,4 @@
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 14px;
-  margin-top: 40px;
 }

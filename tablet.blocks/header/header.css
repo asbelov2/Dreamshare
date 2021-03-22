@@ -2,6 +2,11 @@
 @import "header-main.css";
 
 @font-face {
+  font-family: 'Roboto'; 
+  src: url('../../fonts/Roboto.ttf');
+}
+
+@font-face {
   font-family: 'Montserrat'; 
   src: url('../../fonts/Montserrat Regular.ttf');
 }
@@ -10,6 +15,16 @@
   font-family: 'Montserrat'; 
   font-weight: bold;
   src: url('../../fonts/MontserratBold.ttf');
+}
+
+.header_font_roboto{
+  font-family: 'Roboto';
+  font-weight: lighter;
+}
+
+.header_font_montserrat_bold{
+  font-family: 'Montserrat';
+  font-weight: bold;
 }
 
 .header{

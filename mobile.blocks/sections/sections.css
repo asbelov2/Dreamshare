@@ -20,8 +20,9 @@
 }
 
 .sections{
-  width: 940px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }

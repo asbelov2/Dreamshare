@@ -5,36 +5,36 @@
 
 .header-main{
   height: 100%;
-  width: 500px;
-  padding-bottom: 90px;
+  width: 320px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .header-main__big-text{
   display: flex;
-  margin-bottom: 35px;
+  margin-top: 35px;
+  margin-bottom: 20px;
   color: white;
   font-family: 'Montserrat';
   font-weight: bold;
-  font-size: 52px;
-  line-height: 60px;
+  font-size: 30px;
 }
 
 .header-main__small-text{
   display: flex;
-  margin-bottom: 35px;
+  width: 220px;
+  margin-bottom: 20px;
   color: white;
   font-family: "Roboto";
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .header-main__button{
   display: flex;
+  width: 280px;
   padding: 20px;
   justify-content: center;
   align-items: center;

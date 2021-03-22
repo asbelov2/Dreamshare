@@ -13,10 +13,20 @@
 }
 
 @font-face {
-  font-family: 'Montserrat bold'; 
+  font-family: 'Montserrat'; 
+  font-weight: bold;
   src: url('../../fonts/MontserratBold.ttf');
 }
 
+.footer_font_roboto{
+  font-family: 'Roboto';
+  font-weight: lighter;
+}
+
+.footer_font_montserrat_bold{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
 
 .footer-wrap{
   display: flex;

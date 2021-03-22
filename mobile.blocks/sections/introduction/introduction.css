@@ -17,6 +17,7 @@
 
 .introduction-steps{
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
@@ -27,5 +28,5 @@
   font-weight: bold;
   font-size: 22px;
   color: #333333;
-  margin: 100px 0px 35px 0px;
+  margin: 40px 0px 10px 0px;
 }

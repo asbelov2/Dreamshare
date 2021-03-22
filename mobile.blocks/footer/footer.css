@@ -20,25 +20,24 @@
 
 .footer-wrap{
   display: flex;
-  margin-top: 95px;
+  margin-top: 40px;
   justify-content: center;
-  width: 1440px;
+  width: 768px;
   border-top: #ff4e50 4px solid;
 }
 
 .footer{
   display: flex;
-  flex-direction: row;
-  width: 940px;
-  height: 192px;
-  padding-top: 40px;
+  flex-direction: column;
+  width: 320px;
+  padding-top: 15px;
+  align-items: center;
 }
 
 .footer-site-name{
-  width: 240px;
   display: flex;
   font-family: 'Montserrat';
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
   color:#ff4e50;
 }

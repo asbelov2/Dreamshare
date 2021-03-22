@@ -11,17 +11,16 @@
 .footer-designedby{
   letter-spacing: 1px;
   display: flex;
-  width: 240px;
   flex-flow: column nowrap;
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 10px;
-  text-align: right;
   color: #cccccc;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .footer-designedby__img{
   margin-top: 8px;
   display: flex;
-  align-self: flex-end;
 }

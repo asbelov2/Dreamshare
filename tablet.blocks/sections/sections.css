@@ -19,6 +19,16 @@
   src: url('../../fonts/MontserratBold.ttf');
 }
 
+.sections_font_roboto{
+  font-family: 'Roboto';
+  font-weight: lighter;
+}
+
+.sections_font_montserrat_bold{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
 .sections{
   display: flex;
   width: 768px;
