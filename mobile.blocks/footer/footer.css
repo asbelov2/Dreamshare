@@ -22,7 +22,7 @@
   display: flex;
   margin-top: 40px;
   justify-content: center;
-  width: 768px;
+  width: device-width;
   border-top: #ff4e50 4px solid;
 }
 

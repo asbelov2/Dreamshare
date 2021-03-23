@@ -1,6 +1,6 @@
-  @import "../mobile.blocks/header/header.css" screen and (max-width: 767px) and (min-width: 300px);
-  @import "../mobile.blocks/sections/sections.css" screen and (max-width: 767px) and (min-width: 300px);
-  @import "../mobile.blocks/footer/footer.css" screen and (max-width: 767px) and (min-width: 300px);
+  @import "../mobile.blocks/header/header.css" screen and (max-width: 767px);
+  @import "../mobile.blocks/sections/sections.css" screen and (max-width: 767px);
+  @import "../mobile.blocks/footer/footer.css" screen and (max-width: 767px);
 
   @import "../tablet.blocks/header/header.css" screen and (max-width: 1199px) and (min-width: 768px);
   @import "../tablet.blocks/sections/sections.css" screen and (max-width: 1199px) and (min-width: 768px);

@@ -26,3 +26,16 @@
   font-size: 14px;
   color: #333333;
 }
+
+.footer-company-links{
+  margin-top: 20px;
+}
+
+.footer-company__link{
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 14px;
+  display: flex;
+  color:#666666;
+}
